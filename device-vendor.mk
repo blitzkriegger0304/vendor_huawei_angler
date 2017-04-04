@@ -29,6 +29,7 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt privileged APKs
 PRODUCT_PACKAGES += \
+    atfwd \
     CallStatistics \
     CarrierEntitlement \
     CarrierServices \
