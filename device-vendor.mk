@@ -21,7 +21,7 @@ PRODUCT_PACKAGES += \
     ims \
     SetupSmartDeviceOverlay \
     TimeService \
-    Tycho 
+    Tycho
 
 # Prebuilt jars
 PRODUCT_PACKAGES += \
@@ -32,6 +32,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     AndroidPlatformServices \
     atfwd \
+    CarrierSetup \
     CallStatistics \
     CarrierServices \
     CNEService \
