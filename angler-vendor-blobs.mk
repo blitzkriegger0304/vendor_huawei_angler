@@ -116,4 +116,4 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/huawei/angler/proprietary/lib64/libManufacture.so:system/lib64/libManufacture.so \
     vendor/huawei/angler/proprietary/lib64/gatekeeper.msm8994.so:vendor/lib64/hw/gatekeeper.msm8994.so \
-    vendor/huawei/angler/proprietary/lib64/gatekeeper.msm8994.so:vendor/lib64/hw/keystore.msm8994.so \
+    vendor/huawei/angler/proprietary/lib64/keystore.msm8994.so:vendor/lib64/hw/keystore.msm8994.so \
