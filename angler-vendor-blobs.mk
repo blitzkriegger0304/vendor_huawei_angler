@@ -359,3 +359,21 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/angler/proprietary/lib64/libvoice-svc.so:vendor/lib64/libvoice-svc.so \
 	vendor/huawei/angler/proprietary/lib64/libwms.so:vendor/lib64/libwms.so \
 	vendor/huawei/angler/proprietary/lib64/lib_fpc_tac_shared.so:vendor/lib64/lib_fpc_tac_shared.so \
+
+# vendor/etc
+PRODUCT_COPY_FILES += \
+	vendor/huawei/angler/proprietary/etc/acdbdata/angler/Angler_Bluetooth_cal.acdb:vendor/etc/acdbdata/angler/Angler_Bluetooth_cal.acdb \
+	vendor/huawei/angler/proprietary/etc/acdbdata/angler/Angler_General_cal.acdb:vendor/etc/acdbdata/angler/Angler_General_cal.acdb \
+	vendor/huawei/angler/proprietary/etc/acdbdata/angler/Angler_Global_cal.acdb:vendor/etc/acdbdata/angler/Angler_Global_cal.acdb \
+	vendor/huawei/angler/proprietary/etc/acdbdata/angler/Angler_Handset_cal.acdb:vendor/etc/acdbdata/angler/Angler_Handset_cal.acdb \
+	vendor/huawei/angler/proprietary/etc/acdbdata/angler/Angler_Hdmi_cal.acdb:vendor/etc/acdbdata/angler/Angler_Hdmi_cal.acdb \
+	vendor/huawei/angler/proprietary/etc/acdbdata/angler/Angler_Headset_cal.acdb:vendor/etc/acdbdata/angler/Angler_Headset_cal.acdb \
+	vendor/huawei/angler/proprietary/etc/acdbdata/angler/Angler_Speaker_cal.acdb:vendor/etc/acdbdata/angler/Angler_Speaker_cal.acdb \
+	vendor/huawei/angler/proprietary/etc/diag/Angler_Radio-general.cfg:vendor/etc/diag/Angler_Radio-general.cfg \
+	vendor/huawei/angler/proprietary/etc/pp_calib_data_SAMSUNG_S6E3HA3X01_5P7_1440P_CMD_DUAL0.xml:vendor/etc/pp_calib_data_SAMSUNG_S6E3HA3X01_5P7_1440P_CMD_DUAL0.xml \
+	vendor/huawei/angler/proprietary/etc/data/dsi_config.xml:vendor/etc/data/dsi_config.xml \
+	vendor/huawei/angler/proprietary/etc/data/netmgr_config.xml:vendor/etc/data/netmgr_config.xml \
+	vendor/huawei/angler/proprietary/etc/data/qmi_config.xml:vendor/etc/data/qmi_config.xml \
+	vendor/huawei/angler/proprietary/etc/flp.conf:vendor/etc/flp.conf \
+	vendor/huawei/angler/proprietary/etc/izat.conf:vendor/etc/izat.conf \
+	vendor/huawei/angler/proprietary/etc/lowi.conf:vendor/etc/lowi.conf \
