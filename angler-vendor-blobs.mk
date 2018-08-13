@@ -298,6 +298,8 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/angler/proprietary/lib64/libc2d30-a3xx.so:vendor/lib64/libc2d30-a3xx.so \
 	vendor/huawei/angler/proprietary/lib64/libc2d30-a4xx.so:vendor/lib64/libc2d30-a4xx.so \
 	vendor/huawei/angler/proprietary/lib64/libcallutils.so:vendor/lib64/libcallutils.so \
+	vendor/huawei/angler/proprietary/lib64/libbccQTI.so:vendor/lib64/libbccQTI.so \
+	vendor/huawei/angler/proprietary/lib64/libbt-vendor.so:vendor/lib64/libbt-vendor.so \
 	vendor/huawei/angler/proprietary/lib64/libCB.so:vendor/lib64/libCB.so \
 	vendor/huawei/angler/proprietary/lib64/libcne.so:vendor/lib64/libcne.so \
 	vendor/huawei/angler/proprietary/lib64/libcneapiclient.so:vendor/lib64/libcneapiclient.so \
@@ -353,4 +355,7 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/angler/proprietary/lib64/libthermalioctl.so:vendor/lib64/libthermalioctl.so \
 	vendor/huawei/angler/proprietary/lib64/libTimeService.so:vendor/lib64/libTimeService.so \
 	vendor/huawei/angler/proprietary/lib64/libtime_genoff.so:vendor/lib64/libtime_genoff.so \
-
+	vendor/huawei/angler/proprietary/lib64/libtzdrmgenprov.so:vendor/lib64/libtzdrmgenprov.so \
+	vendor/huawei/angler/proprietary/lib64/libvoice-svc.so:vendor/lib64/libvoice-svc.so \
+	vendor/huawei/angler/proprietary/lib64/libwms.so:vendor/lib64/libwms.so \
+	vendor/huawei/angler/proprietary/lib64/lib_fpc_tac_shared.so:vendor/lib64/lib_fpc_tac_shared.so \
