@@ -247,3 +247,24 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	vendor/huawei/angler/proprietary/media/LMspeed_508.emd:vendor/media/LMspeed_508.emd \
 	vendor/huawei/angler/proprietary/media/PFFprec_600.emd:vendor/media/PFFprec_600.emd
+
+# vendor EGL blobs
+PRODUCT_COPY_FILES += \
+    vendor/huawei/angler/proprietary/lib/egl/eglSubDriverAndroid.so:vendor/lib/egl/eglSubDriverAndroid.so \
+    vendor/huawei/angler/proprietary/lib/egl/libEGL_adreno.so:vendor/lib/egl/libEGL_adreno.so \
+    vendor/huawei/angler/proprietary/lib/egl/libGLESv1_CM_adreno.so:vendor/lib/egl/libGLESv1_CM_adreno.so \
+    vendor/huawei/angler/proprietary/lib/egl/libGLESv2_adreno.so:vendor/lib/egl/libGLESv2_adreno.so \
+    vendor/huawei/angler/proprietary/lib/egl/libq3dtools_adreno.so:vendor/lib/egl/libq3dtools_adreno.so \
+    vendor/huawei/angler/proprietary/lib/egl/libq3dtools_esx.so:vendor/lib/egl/libq3dtools_adreno.so \
+    vendor/huawei/angler/proprietary/lib64/egl/eglSubDriverAndroid.so:vendor/lib64/egl/eglSubDriverAndroid.so \
+    vendor/huawei/angler/proprietary/lib64/egl/libEGL_adreno.so:vendor/lib64/egl/libEGL_adreno.so \
+    vendor/huawei/angler/proprietary/lib64/egl/libGLESv1_CM_adreno.so:vendor/lib64/egl/libGLESv1_CM_adreno.so \
+    vendor/huawei/angler/proprietary/lib64/egl/libGLESv2_adreno.so:vendor/lib64/egl/libGLESv2_adreno.so \
+    vendor/huawei/angler/proprietary/lib64/egl/libq3dtools_adreno.so:vendor/lib64/egl/libq3dtools_adreno.so \
+    vendor/huawei/angler/proprietary/lib64/egl/libq3dtools_esx.so:vendor/lib64/egl/libq3dtools_adreno.so \
+    vendor/huawei/angler/proprietary/lib/egl/libadreno_utils.so:vendor/lib/libadreno_utils.so \
+    vendor/huawei/angler/proprietary/lib/egl/libgsl.so:vendor/lib/libgsl.so \
+    vendor/huawei/angler/proprietary/lib/egl/libllvm-glnext.so:vendor/lib/libllvm-glnext.so \
+    vendor/huawei/angler/proprietary/lib64/egl/libadreno_utils.so:vendor/lib64/libadreno_utils.so \
+    vendor/huawei/angler/proprietary/lib64/egl/libgsl.so:vendor/lib64/libgsl.so \
+    vendor/huawei/angler/proprietary/lib64/egl/libllvm-glnext.so:vendor/lib64/libllvm-glnext.so
