@@ -508,3 +508,38 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/angler/proprietary/lib/libCB.so:vendor/lib/libCB.so \
 	vendor/huawei/angler/proprietary/lib/libC2D2.so:vendor/lib/libC2D2.so \
 	vendor/huawei/angler/proprietary/lib/mediadrm/libwvdrmengine.so:vendor/lib/mediadrm/libwvdrmengine.so \
+
+# vendor/bin
+PRODUCT_COPY_FILES += \
+	vendor/huawei/angler/proprietary/bin/ATFWD-daemon:vendor/bin/ATFWD-daemon \
+	vendor/huawei/angler/proprietary/bin/cnd:vendor/bin/cnd \
+	vendor/huawei/angler/proprietary/bin/diag_klog:vendor/bin/diag_klog \
+	vendor/huawei/angler/proprietary/bin/diag_mdlog:vendor/bin/diag_mdlog \
+	vendor/huawei/angler/proprietary/bin/diag_test_server:vendor/bin/diag_test_server \
+	vendor/huawei/angler/proprietary/bin/dsm_ctrl:vendor/bin/dsm_ctrl \
+	vendor/huawei/angler/proprietary/bin/hostapd:vendor/bin/hostapd \
+	vendor/huawei/angler/proprietary/bin/imscmservice:vendor/bin/imscmservice \
+	vendor/huawei/angler/proprietary/bin/imsdatadaemon:vendor/bin/imsdatadaemon \
+	vendor/huawei/angler/proprietary/bin/imsqmidaemon:vendor/bin/imsqmidaemon \
+	vendor/huawei/angler/proprietary/bin/ims_rtp_daemon:vendor/bin/ims_rtp_daemon \
+	vendor/huawei/angler/proprietary/bin/InputEventFind:vendor/bin/InputEventFind \
+	vendor/huawei/angler/proprietary/bin/irsc_util:vendor/bin/irsc_util \
+	vendor/huawei/angler/proprietary/bin/loc_launcher:vendor/bin/loc_launcher \
+	vendor/huawei/angler/proprietary/bin/mm-qcamera-daemon:vendor/bin/mm-qcamera-daemon \
+	vendor/huawei/angler/proprietary/bin/msm_irqbalance:vendor/bin/msm_irqbalance \
+	vendor/huawei/angler/proprietary/bin/netmgrd:vendor/bin/netmgrd \
+	vendor/huawei/angler/proprietary/bin/nl_listener:vendor/bin/nl_listener \
+	vendor/huawei/angler/proprietary/bin/oem_qmi_server:vendor/bin/oem_qmi_server \
+	vendor/huawei/angler/proprietary/bin/perfd:vendor/bin/perfd \
+	vendor/huawei/angler/proprietary/bin/pm-proxy:vendor/bin/pm-proxy \
+	vendor/huawei/angler/proprietary/bin/pm-service:vendor/bin/pm-service \
+	vendor/huawei/angler/proprietary/bin/port-bridge:vendor/bin/port-bridge \
+	vendor/huawei/angler/proprietary/bin/qmuxd:vendor/bin/qmuxd \
+	vendor/huawei/angler/proprietary/bin/qseecomd:vendor/bin/qseecomd \
+	vendor/huawei/angler/proprietary/bin/qti:vendor/bin/qti \
+	vendor/huawei/angler/proprietary/bin/radish:vendor/bin/radish \
+	vendor/huawei/angler/proprietary/bin/rmt_storage:vendor/bin/rmt_storage \
+	vendor/huawei/angler/proprietary/bin/slim_daemon:vendor/bin/slim_daemon \
+	vendor/huawei/angler/proprietary/bin/sound_trigger_test:vendor/bin/sound_trigger_test \
+	vendor/huawei/angler/proprietary/bin/thermal-engine:vendor/bin/thermal-engine \
+	vendor/huawei/angler/proprietary/bin/time_daemon:vendor/bin/time_daemon \
