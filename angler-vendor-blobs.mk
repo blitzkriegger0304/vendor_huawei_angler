@@ -289,11 +289,14 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/angler/proprietary/lib64/lib-rtpcore.so:vendor/lib64/lib-rtpcore.so \
 	vendor/huawei/angler/proprietary/lib64/lib-rtpdaemoninterface.so:vendor/lib64/lib-rtpdaemoninterface.so \
 	vendor/huawei/angler/proprietary/lib64/lib-rtpsl.so:vendor/lib64/lib-rtpsl.so \
+	vendor/huawei/angler/proprietary/lib64/libadsprpc.so:vendor/lib64/libadsprpc.so \
 	vendor/huawei/angler/proprietary/lib64/libacdb-fts.so:vendor/lib64/libacdb-fts.so \
 	vendor/huawei/angler/proprietary/lib64/libacdbloader.so:vendor/lib64/libacdbloader.so \
 	vendor/huawei/angler/proprietary/lib64/libacdbmapper.so:vendor/lib64/libacdbmapper.so \
 	vendor/huawei/angler/proprietary/lib64/libacdbrtac.so:vendor/lib64/libacdbrtac.so \
 	vendor/huawei/angler/proprietary/lib64/libadiertac.so:vendor/lib64/libadiertac.so \
+	vendor/huawei/angler/proprietary/lib64/libaudcal.so:vendor/lib64/libaudcal.so \
+	vendor/huawei/angler/proprietary/lib64/libaudioalsa.so:vendor/lib64/libaudioalsa.so \
 	vendor/huawei/angler/proprietary/lib64/libC2D2.so:vendor/lib64/libC2D2.so \
 	vendor/huawei/angler/proprietary/lib64/libc2d30-a3xx.so:vendor/lib64/libc2d30-a3xx.so \
 	vendor/huawei/angler/proprietary/lib64/libc2d30-a4xx.so:vendor/lib64/libc2d30-a4xx.so \
@@ -322,6 +325,7 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/angler/proprietary/lib64/liblowi_client.so:vendor/lib64/liblowi_client.so \
 	vendor/huawei/angler/proprietary/lib64/liblowi_wifihal.so:vendor/lib64/liblowi_wifihal.so \
 	vendor/huawei/angler/proprietary/lib64/liblqe.so:vendor/lib64/liblqe.so \
+	vendor/huawei/angler/proprietary/lib64/libkmcrypto.so:vendor/lib64/libkmcrypto.so \
 	vendor/huawei/angler/proprietary/lib64/libmm-abl-oem.so:vendor/lib64/libmm-abl-oem.so \
 	vendor/huawei/angler/proprietary/lib64/libmm-abl.so:vendor/lib64/libmm-abl.so \
 	vendor/huawei/angler/proprietary/lib64/libmm-als.so:vendor/lib64/libmm-als.so \
@@ -330,6 +334,14 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/angler/proprietary/lib64/libmmcamera2_q3a_core.so:vendor/lib64/libmmcamera2_q3a_core.so \
 	vendor/huawei/angler/proprietary/lib64/libmmcamera2_sensor_debug.so:vendor/lib64/libmmcamera2_sensor_debug.so \
 	vendor/huawei/angler/proprietary/lib64/libmmcamera2_stats_algorithm.so:vendor/lib64/libmmcamera2_stats_algorithm.so \
+	vendor/huawei/angler/proprietary/lib64/liblbs_core.so:vendor/lib64/liblbs_core.so \
+	vendor/huawei/angler/proprietary/lib64/liblistensoundmodel2.so:vendor/lib64/liblistensoundmodel2.so \
+	vendor/huawei/angler/proprietary/lib64/libllvm-qcom.so:vendor/lib64/libllvm-qcom.so \
+	vendor/huawei/angler/proprietary/lib64/libmdmdetect.so:vendor/lib64/libmdmdetect.so \
+	vendor/huawei/angler/proprietary/lib64/libmdsprpc.so:vendor/lib64/libmdsprpc.so \
+	vendor/huawei/angler/proprietary/lib64/libminijail_vendor.so:vendor/lib64/libminijail_vendor.so \
+	vendor/huawei/angler/proprietary/lib64/libnetmgr.so:vendor/lib64/libnetmgr.so \
+	vendor/huawei/angler/proprietary/lib64/libperipheral_client.so:vendor/lib64/libperipheral_client.so \
 	vendor/huawei/angler/proprietary/lib64/libqcci_legacy.so:vendor/lib64/libqcci_legacy.so \
 	vendor/huawei/angler/proprietary/lib64/libqdi.so:vendor/lib64/libqdi.so \
 	vendor/huawei/angler/proprietary/lib64/libqdp.so:vendor/lib64/libqdp.so \
@@ -346,6 +358,11 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/angler/proprietary/lib64/libqti-perfd-client.so:vendor/lib64/libqti-perfd-client.so \
 	vendor/huawei/angler/proprietary/lib64/libquipc_os_api.so:vendor/lib64/libquipc_os_api.so \
 	vendor/huawei/angler/proprietary/lib64/libRSDriver_adreno.so:vendor/lib64/libRSDriver_adreno.so \
+	vendor/huawei/angler/proprietary/lib64/libril-qc-qmi-1.so:vendor/lib64/libril-qc-qmi-1.so \
+	vendor/huawei/angler/proprietary/lib64/libril-qcril-hook-oem.so:vendor/lib64/libril-qcril-hook-oem.so \
+	vendor/huawei/angler/proprietary/lib64/librpmb.so:vendor/lib64/librpmb.so \
+	vendor/huawei/angler/proprietary/lib64/librs_adreno.so:vendor/lib64/librs_adreno.so \
+	vendor/huawei/angler/proprietary/lib64/librs_adreno_sha1.so:vendor/lib64/librs_adreno_sha1.so \
 	vendor/huawei/angler/proprietary/lib64/libscale.so:vendor/lib64/libscale.so \
 	vendor/huawei/angler/proprietary/lib64/libselinux_vendor.so:vendor/lib64/libselinux_vendor.so \
 	vendor/huawei/angler/proprietary/lib64/libsmemlog.so:vendor/lib64/libsmemlog.so \
@@ -359,6 +376,7 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/angler/proprietary/lib64/libvoice-svc.so:vendor/lib64/libvoice-svc.so \
 	vendor/huawei/angler/proprietary/lib64/libwms.so:vendor/lib64/libwms.so \
 	vendor/huawei/angler/proprietary/lib64/lib_fpc_tac_shared.so:vendor/lib64/lib_fpc_tac_shared.so \
+	vendor/huawei/angler/proprietary/lib64/mediadrm/libwvdrmengine.so:vendor/lib64/mediadrm/libwvdrmengine.so \
 
 # vendor/etc
 PRODUCT_COPY_FILES += \
@@ -489,3 +507,4 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/angler/proprietary/lib/libwms.so:vendor/lib/libwms.so \
 	vendor/huawei/angler/proprietary/lib/libCB.so:vendor/lib/libCB.so \
 	vendor/huawei/angler/proprietary/lib/libC2D2.so:vendor/lib/libC2D2.so \
+	vendor/huawei/angler/proprietary/lib/mediadrm/libwvdrmengine.so:vendor/lib/mediadrm/libwvdrmengine.so \
