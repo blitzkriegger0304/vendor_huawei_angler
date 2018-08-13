@@ -242,3 +242,8 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/angler/proprietary/firmware/widevine.b02:vendor/firmware/widevine.b02 \
 	vendor/huawei/angler/proprietary/firmware/widevine.b03:vendor/firmware/widevine.b03 \
 	vendor/huawei/angler/proprietary/firmware/widevine.mdt:vendor/firmware/widevine.mdt
+
+# vendor/media
+PRODUCT_COPY_FILES += \
+	vendor/huawei/angler/proprietary/media/LMspeed_508.emd:vendor/media/LMspeed_508.emd \
+	vendor/huawei/angler/proprietary/media/PFFprec_600.emd:vendor/media/PFFprec_600.emd
