@@ -545,3 +545,8 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/angler/proprietary/bin/sound_trigger_test:vendor/bin/sound_trigger_test \
 	vendor/huawei/angler/proprietary/bin/thermal-engine:vendor/bin/thermal-engine \
 	vendor/huawei/angler/proprietary/bin/time_daemon:vendor/bin/time_daemon \
+
+# NFC blobs
+PRODUCT_COPY_FILES += \
+	vendor/huawei/angler/proprietary/lib/nfc_nci.angler.so:vendor/lib/hw/nfc_nci.angler.so \
+	vendor/huawei/angler/proprietary/lib64/nfc_nci.angler.so:vendor/lib64/hw/nfc_nci.angler.so \
