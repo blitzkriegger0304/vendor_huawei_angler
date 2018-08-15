@@ -111,6 +111,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/lib64/libimscamera_jni.so:vendor/lib64/libimscamera_jni.so \
     vendor/huawei/angler/proprietary/lib64/libimsmedia_jni.so:vendor/lib64/libimsmedia_jni.so \
     vendor/huawei/angler/proprietary/lib64/libManufacture.so:system/lib64/libManufacture.so \
+    vendor/huawei/angler/proprietary/lib64/vulkan.msm8994.so:vendor/lib64/hw/vulkan.msm8994.so \
+    vendor/huawei/angler/proprietary/lib64/tof.vl6180.so:vendor/lib64/hw/tof.vl6180.so \
 
 # vendor/qcril_database
 PRODUCT_COPY_FILES += \
@@ -172,6 +174,8 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/angler/proprietary/lib/libchromatix_imx377_postproc.so:vendor/lib/libchromatix_imx377_postproc.so \
 	vendor/huawei/angler/proprietary/lib/libchromatix_imx377_preview.so:vendor/lib/libchromatix_imx377_preview.so \
 	vendor/huawei/angler/proprietary/lib/libchromatix_imx377_snapshot.so:vendor/lib/libchromatix_imx377_snapshot.so \
+        vendor/huawei/angler/proprietary/lib/vulkan.msm8994.so:vendor/lib/hw/vulkan.msm8994.so \
+	vendor/huawei/angler/proprietary/lib/tof.vl6180.so:vendor/lib/hw/tof.vl6180.so \
 
 # vendor/firmware
 PRODUCT_COPY_FILES += \
