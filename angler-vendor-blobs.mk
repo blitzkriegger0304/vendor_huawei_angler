@@ -378,6 +378,7 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/angler/proprietary/lib64/lib_fpc_tac_shared.so:vendor/lib64/lib_fpc_tac_shared.so \
 	vendor/huawei/angler/proprietary/lib64/mediadrm/libwvdrmengine.so:vendor/lib64/mediadrm/libwvdrmengine.so \
         vendor/huawei/angler/proprietary/lib64/fingerprint.angler.so:vendor/lib64/hw/fingerprint.angler.so \
+	vendor/huawei/angler/proprietary/lib64/libxml.so:vendor/lib64/libxml.so \
 
 # vendor/etc
 PRODUCT_COPY_FILES += \
@@ -509,6 +510,7 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/angler/proprietary/lib/libCB.so:vendor/lib/libCB.so \
 	vendor/huawei/angler/proprietary/lib/libC2D2.so:vendor/lib/libC2D2.so \
 	vendor/huawei/angler/proprietary/lib/mediadrm/libwvdrmengine.so:vendor/lib/mediadrm/libwvdrmengine.so \
+	vendor/huawei/angler/proprietary/lib/libxml.so:vendor/lib/libxml.so \
 
 # vendor/bin
 PRODUCT_COPY_FILES += \
@@ -544,3 +546,8 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/angler/proprietary/bin/sound_trigger_test:vendor/bin/sound_trigger_test \
 	vendor/huawei/angler/proprietary/bin/thermal-engine:vendor/bin/thermal-engine \
 	vendor/huawei/angler/proprietary/bin/time_daemon:vendor/bin/time_daemon \
+
+# NFC blobs
+PRODUCT_COPY_FILES += \
+	vendor/huawei/angler/proprietary/lib/nfc_nci.angler.so:vendor/lib/hw/nfc_nci.angler.so \
+	vendor/huawei/angler/proprietary/lib64/nfc_nci.angler.so:vendor/lib64/hw/nfc_nci.angler.so \
