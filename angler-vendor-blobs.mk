@@ -377,6 +377,7 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/angler/proprietary/lib64/libwms.so:vendor/lib64/libwms.so \
 	vendor/huawei/angler/proprietary/lib64/lib_fpc_tac_shared.so:vendor/lib64/lib_fpc_tac_shared.so \
 	vendor/huawei/angler/proprietary/lib64/mediadrm/libwvdrmengine.so:vendor/lib64/mediadrm/libwvdrmengine.so \
+        vendor/huawei/angler/proprietary/lib64/fingerprint.angler.so:vendor/lib64/hw/fingerprint.angler.so \
 
 # vendor/etc
 PRODUCT_COPY_FILES += \
