@@ -79,3 +79,13 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 endif
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := symlinks
+LOCAL_MODULE_TAGS := optional
+LOCAL_POST_INSTALL_CMD := \
+        mkdir -p $(PRODUCT_OUT)/vendor/app/ims/lib/arm64; \
+        ln -sf /vendor/lib64/libimscamera_jni.so $(PRODUCT_OUT)/vendor/app/ims/lib/arm64/libimscamera_jni.so; \
+        ln -sf /vendor/lib64/libimsmedia_jni.so $(PRODUCT_OUT)/vendor/app/ims/lib/arm64/libimsmedia_jni.so; \
+
+include $(BUILD_PHONY_PACKAGE)

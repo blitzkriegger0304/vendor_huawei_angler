@@ -54,4 +54,5 @@ PRODUCT_PACKAGES += \
     libimscamera_jni.so \
     libdmengine.so \
     libdmjavaplugin.so \
-    libManufacture.so
+    libManufacture.so \
+    symlinks
