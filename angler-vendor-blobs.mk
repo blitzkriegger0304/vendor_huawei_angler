@@ -399,7 +399,7 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/angler/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
 	vendor/huawei/angler/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
 	vendor/huawei/angler/proprietary/etc/flp.conf:vendor/etc/flp.conf \
-	vendor/huawei/angler/proprietary/etc/izat.conf:vendor/etc/izat.conf \
+	vendor/huawei/angler/proprietary/etc/izat.conf:system/etc/izat.conf \
 	vendor/huawei/angler/proprietary/etc/lowi.conf:vendor/etc/lowi.conf \
 
 # missing stuff from vendor/lib
