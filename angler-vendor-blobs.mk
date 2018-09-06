@@ -401,6 +401,7 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/angler/proprietary/etc/flp.conf:vendor/etc/flp.conf \
 	vendor/huawei/angler/proprietary/etc/izat.conf:system/etc/izat.conf \
 	vendor/huawei/angler/proprietary/etc/lowi.conf:vendor/etc/lowi.conf \
+	vendor/huawei/angler/proprietary/etc/sap.conf:vendor/etc/sap.conf \
 
 # missing stuff from vendor/lib
 PRODUCT_COPY_FILES += \
