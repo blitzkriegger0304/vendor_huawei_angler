@@ -402,6 +402,7 @@ PRODUCT_COPY_FILES += \
 	vendor/huawei/angler/proprietary/etc/izat.conf:system/etc/izat.conf \
 	vendor/huawei/angler/proprietary/etc/lowi.conf:vendor/etc/lowi.conf \
 	vendor/huawei/angler/proprietary/etc/sap.conf:vendor/etc/sap.conf \
+    vendor/huawei/angler/proprietary/etc/cne/profile.txt:system/etc/cne/profile.txt
 
 # missing stuff from vendor/lib
 PRODUCT_COPY_FILES += \
