@@ -386,22 +386,22 @@ PRODUCT_COPY_FILES += \
 
 # vendor/etc
 PRODUCT_COPY_FILES += \
-    vendor/huawei/angler/proprietary/etc/acdbdata/angler/Angler_Bluetooth_cal.acdb:system/etc/acdbdata/angler/Angler_Bluetooth_cal.acdb \
-    vendor/huawei/angler/proprietary/etc/acdbdata/angler/Angler_General_cal.acdb:system/etc/acdbdata/angler/Angler_General_cal.acdb \
-    vendor/huawei/angler/proprietary/etc/acdbdata/angler/Angler_Global_cal.acdb:system/etc/acdbdata/angler/Angler_Global_cal.acdb \
-    vendor/huawei/angler/proprietary/etc/acdbdata/angler/Angler_Handset_cal.acdb:system/etc/acdbdata/angler/Angler_Handset_cal.acdb \
-    vendor/huawei/angler/proprietary/etc/acdbdata/angler/Angler_Hdmi_cal.acdb:system/etc/acdbdata/angler/Angler_Hdmi_cal.acdb \
-    vendor/huawei/angler/proprietary/etc/acdbdata/angler/Angler_Headset_cal.acdb:system/etc/acdbdata/angler/Angler_Headset_cal.acdb \
-    vendor/huawei/angler/proprietary/etc/acdbdata/angler/Angler_Speaker_cal.acdb:system/etc/acdbdata/angler/Angler_Speaker_cal.acdb \
-    vendor/huawei/angler/proprietary/etc/diag/Angler_Radio-general.cfg:system/etc/diag/Angler_Radio-general.cfg \
-    vendor/huawei/angler/proprietary/etc/pp_calib_data_SAMSUNG_S6E3HA3X01_5P7_1440P_CMD_DUAL0.xml:system/etc/pp_calib_data_SAMSUNG_S6E3HA3X01_5P7_1440P_CMD_DUAL0.xml \
-    vendor/huawei/angler/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
-    vendor/huawei/angler/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
-    vendor/huawei/angler/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
-    vendor/huawei/angler/proprietary/etc/flp.conf:system/etc/flp.conf \
-    vendor/huawei/angler/proprietary/etc/izat.conf:system/etc/izat.conf \
-    vendor/huawei/angler/proprietary/etc/lowi.conf:system/etc/lowi.conf \
-    vendor/huawei/angler/proprietary/etc/sap.conf:system/etc/sap.conf
+	vendor/huawei/angler/proprietary/etc/acdbdata/angler/Angler_Bluetooth_cal.acdb:vendor/etc/acdbdata/angler/Angler_Bluetooth_cal.acdb \
+	vendor/huawei/angler/proprietary/etc/acdbdata/angler/Angler_General_cal.acdb:vendor/etc/acdbdata/angler/Angler_General_cal.acdb \
+	vendor/huawei/angler/proprietary/etc/acdbdata/angler/Angler_Global_cal.acdb:vendor/etc/acdbdata/angler/Angler_Global_cal.acdb \
+	vendor/huawei/angler/proprietary/etc/acdbdata/angler/Angler_Handset_cal.acdb:vendor/etc/acdbdata/angler/Angler_Handset_cal.acdb \
+	vendor/huawei/angler/proprietary/etc/acdbdata/angler/Angler_Hdmi_cal.acdb:vendor/etc/acdbdata/angler/Angler_Hdmi_cal.acdb \
+	vendor/huawei/angler/proprietary/etc/acdbdata/angler/Angler_Headset_cal.acdb:vendor/etc/acdbdata/angler/Angler_Headset_cal.acdb \
+	vendor/huawei/angler/proprietary/etc/acdbdata/angler/Angler_Speaker_cal.acdb:vendor/etc/acdbdata/angler/Angler_Speaker_cal.acdb \
+	vendor/huawei/angler/proprietary/etc/diag/Angler_Radio-general.cfg:vendor/etc/diag/Angler_Radio-general.cfg \
+	vendor/huawei/angler/proprietary/etc/pp_calib_data_SAMSUNG_S6E3HA3X01_5P7_1440P_CMD_DUAL0.xml:vendor/etc/pp_calib_data_SAMSUNG_S6E3HA3X01_5P7_1440P_CMD_DUAL0.xml \
+	vendor/huawei/angler/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
+	vendor/huawei/angler/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
+	vendor/huawei/angler/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
+	vendor/huawei/angler/proprietary/etc/flp.conf:vendor/etc/flp.conf \
+	vendor/huawei/angler/proprietary/etc/izat.conf:system/etc/izat.conf \
+	vendor/huawei/angler/proprietary/etc/lowi.conf:vendor/etc/lowi.conf \
+	vendor/huawei/angler/proprietary/etc/sap.conf:vendor/etc/sap.conf \
 
 # missing stuff from vendor/lib
 PRODUCT_COPY_FILES += \
