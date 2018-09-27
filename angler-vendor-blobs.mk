@@ -555,5 +555,5 @@ PRODUCT_COPY_FILES += \
 
 # NFC blobs
 PRODUCT_COPY_FILES += \
-	vendor/huawei/angler/proprietary/lib/nfc_nci.angler.so:vendor/lib/hw/nfc_nci.angler.so \
-	vendor/huawei/angler/proprietary/lib64/nfc_nci.angler.so:vendor/lib64/hw/nfc_nci.angler.so \
+	vendor/huawei/angler/proprietary/lib/nfc_nci.angler.so:system/lib/hw/nfc_nci.angler.so \
+	vendor/huawei/angler/proprietary/lib64/nfc_nci.angler.so:system/lib64/hw/nfc_nci.angler.so
