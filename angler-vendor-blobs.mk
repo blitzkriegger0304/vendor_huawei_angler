@@ -284,7 +284,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/vendor/lib64/libthermalioctl.so:vendor/lib64/libthermalioctl.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libtime_genoff.so:vendor/lib64/libtime_genoff.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libTimeService.so:vendor/lib64/libTimeService.so \
-    vendor/huawei/angler/proprietary/vendor/lib64/libtinyxml.so:vendor/lib64/libtinyxml.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libtzdrmgenprov.so:vendor/lib64/libtzdrmgenprov.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libvoice-svc.so:vendor/lib64/libvoice-svc.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libwms.so:vendor/lib64/libwms.so \
@@ -528,7 +527,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/vendor/lib/libthermalclient.so:vendor/lib/libthermalclient.so \
     vendor/huawei/angler/proprietary/vendor/lib/libtime_genoff.so:vendor/lib/libtime_genoff.so \
     vendor/huawei/angler/proprietary/vendor/lib/libTimeService.so:vendor/lib/libTimeService.so \
-    vendor/huawei/angler/proprietary/vendor/lib/libtinyxml.so:vendor/lib/libtinyxml.so \
     vendor/huawei/angler/proprietary/vendor/lib/libtzdrmgenprov.so:vendor/lib/libtzdrmgenprov.so \
     vendor/huawei/angler/proprietary/vendor/lib/libvoice-svc.so:vendor/lib/libvoice-svc.so \
     vendor/huawei/angler/proprietary/vendor/lib/libwms.so:vendor/lib/libwms.so \
