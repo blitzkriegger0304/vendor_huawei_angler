@@ -16,8 +16,8 @@
 
 # taken from system.img
 PRODUCT_COPY_FILES += \
-    vendor/huawei/angler/proprietary/bin/ssr_setup:system/bin/ssr_setup \
-    vendor/huawei/angler/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
+    vendor/huawei/angler/proprietary/bin/ssr_setup:vendor/bin/ssr_setup \
+    vendor/huawei/angler/proprietary/bin/subsystem_ramdump:vendor/bin/subsystem_ramdump \
     vendor/huawei/angler/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/huawei/angler/proprietary/etc/permissions/com.android.omadm.service.xml:system/etc/permissions/com.android.omadm.service.xml \
     vendor/huawei/angler/proprietary/etc/permissions/com.android.sdm.plugins.connmo.xml:system/etc/permissions/com.android.sdm.plugins.connmo.xml \
