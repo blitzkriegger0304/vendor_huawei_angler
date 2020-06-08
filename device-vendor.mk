@@ -20,7 +20,6 @@ PRODUCT_PACKAGES += \
     HwSarControlService \
     ims \
     SetupSmartDeviceOverlay \
-    TimeService \
     Tycho
 
 # Prebuilt jars
