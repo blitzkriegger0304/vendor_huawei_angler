@@ -32,7 +32,6 @@ PRODUCT_PACKAGES += \
     atfwd \
     CarrierSetup \
     CallStatistics \
-    CarrierServices \
     CNEService \
     ConnMO \
     DCMO \
