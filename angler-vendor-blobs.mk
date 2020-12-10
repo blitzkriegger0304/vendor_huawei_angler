@@ -470,6 +470,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/vendor/lib/libmmcamera_isp_sce40.so:vendor/lib/libmmcamera_isp_sce40.so \
     vendor/huawei/angler/proprietary/vendor/lib/libmmcamera_isp_sub_module.so:vendor/lib/libmmcamera_isp_sub_module.so \
     vendor/huawei/angler/proprietary/vendor/lib/libmmcamera_isp_wb46.so:vendor/lib/libmmcamera_isp_wb46.so \
+    vendor/huawei/angler/proprietary/vendor/lib/libmmcamera_llvd.so:vendor/lib/libmmcamera_llvd.so \
     vendor/huawei/angler/proprietary/vendor/lib/libmmcamera_m24c64s_eeprom.so:vendor/lib/libmmcamera_m24c64s_eeprom.so \
     vendor/huawei/angler/proprietary/vendor/lib/libmmcamera_pdafcamif.so:vendor/lib/libmmcamera_pdafcamif.so \
     vendor/huawei/angler/proprietary/vendor/lib/libmmcamera_pdaf.so:vendor/lib/libmmcamera_pdaf.so \
@@ -477,6 +478,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/vendor/lib/libmmcamera_sony_imx179_eeprom.so:vendor/lib/libmmcamera_sony_imx179_eeprom.so \
     vendor/huawei/angler/proprietary/vendor/lib/libmmcamera_tintless_algo.so:vendor/lib/libmmcamera_tintless_algo.so \
     vendor/huawei/angler/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
+    vendor/huawei/angler/proprietary/vendor/lib/libmmcamera_tuning.so:vendor/lib/libmmcamera_tuning.so \
     vendor/huawei/angler/proprietary/vendor/lib/libmmcamera_vpu_module.so:vendor/lib/libmmcamera_vpu_module.so \
     vendor/huawei/angler/proprietary/vendor/lib/libmm-disp-apis.so:vendor/lib/libmm-disp-apis.so \
     vendor/huawei/angler/proprietary/vendor/lib/libmmipl.so:vendor/lib/libmmipl.so \
