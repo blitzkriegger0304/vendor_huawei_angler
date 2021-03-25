@@ -173,7 +173,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/vendor/lib64/hw/fingerprint.angler.so:vendor/lib64/hw/fingerprint.angler.so \
     vendor/huawei/angler/proprietary/vendor/lib64/hw/flp.default.so:vendor/lib64/hw/flp.default.so \
     vendor/huawei/angler/proprietary/vendor/lib64/hw/gatekeeper.msm8994.so:vendor/lib64/hw/gatekeeper.msm8994.so \
-    vendor/huawei/angler/proprietary/vendor/lib64/hw/keystore.msm8994.so:vendor/lib64/hw/keystore.msm8994.so \
     vendor/huawei/angler/proprietary/vendor/lib64/hw/sound_trigger.primary.msm8994.so:vendor/lib64/hw/sound_trigger.primary.msm8994.so \
     vendor/huawei/angler/proprietary/vendor/lib64/hw/tof.vl6180.so:vendor/lib64/hw/tof.vl6180.so \
     vendor/huawei/angler/proprietary/vendor/lib64/hw/vulkan.msm8994.so:vendor/lib64/hw/vulkan.msm8994.so \
@@ -296,7 +295,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/vendor/lib/egl/libq3dtools_adreno.so:vendor/lib/egl/libq3dtools_adreno.so \
     vendor/huawei/angler/proprietary/vendor/lib/egl/libq3dtools_esx.so:vendor/lib/egl/libq3dtools_esx.so \
     vendor/huawei/angler/proprietary/vendor/lib/hw/gatekeeper.msm8994.so:vendor/lib/hw/gatekeeper.msm8994.so \
-    vendor/huawei/angler/proprietary/vendor/lib/hw/keystore.msm8994.so:vendor/lib/hw/keystore.msm8994.so \
     vendor/huawei/angler/proprietary/vendor/lib/hw/sound_trigger.primary.msm8994.so:vendor/lib/hw/sound_trigger.primary.msm8994.so \
     vendor/huawei/angler/proprietary/vendor/lib/hw/tof.vl6180.so:vendor/lib/hw/tof.vl6180.so \
     vendor/huawei/angler/proprietary/vendor/lib/hw/vulkan.msm8994.so:vendor/lib/hw/vulkan.msm8994.so \
